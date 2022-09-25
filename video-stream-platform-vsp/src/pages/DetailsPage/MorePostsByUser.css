@@ -1,0 +1,29 @@
+.feedback-slider {
+
+  margin-top: 50px;
+  margin: 10px;
+}
+
+
+.feedbck-slide{
+    margin-top: 30px;
+}
+
+
+
+
+.slick-prev:before{
+    font-size: 30px;
+    color: #ff854c!important;
+    height: 50px;
+    width: 50px;
+}
+.slick-next:before{
+    font-size: 30px;
+    color: #ff854c!important;
+}
+
+.slick-disable{
+    /* opacity: 0; */
+    pointer-events: none;
+}

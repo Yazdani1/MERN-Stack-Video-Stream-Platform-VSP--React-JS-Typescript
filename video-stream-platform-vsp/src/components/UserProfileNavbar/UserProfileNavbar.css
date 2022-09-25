@@ -1,0 +1,25 @@
+.user-profile-nav{
+    height: 50px;
+}
+
+.user-profile-nav ul{
+    display: flex;
+}
+
+.user-profile-nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+    color: black;
+    cursor: pointer;
+    padding-top: 7px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+.lactive-classlactive-class  {
+    color: rgb(252, 200, 30);
+    /* background-color: chocolate; */
+    padding: 8px;
+    border-left: 2px dotted white;
+    width: fit-content;
+  }

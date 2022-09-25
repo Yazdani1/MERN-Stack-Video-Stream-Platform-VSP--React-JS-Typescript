@@ -1,0 +1,18 @@
+.post-image img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+
+@media (max-width: 1000px) {
+  .search-post-info {
+    padding-top: 10px;
+  }
+}

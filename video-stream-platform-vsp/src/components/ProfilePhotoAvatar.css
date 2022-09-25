@@ -1,0 +1,23 @@
+.user-profile-name-avatar{
+    display: flex;
+}
+
+.profile-avatar{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 90px;
+    margin-top: 2px;
+}
+
+.profile-avatar h6{
+    text-align: center;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-name{
+    padding-left: 10px;
+    margin-top: 15px;
+}

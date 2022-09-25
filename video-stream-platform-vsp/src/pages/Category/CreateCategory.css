@@ -1,0 +1,14 @@
+.category-main{
+    margin-top: 20px;
+}
+
+.category-list{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

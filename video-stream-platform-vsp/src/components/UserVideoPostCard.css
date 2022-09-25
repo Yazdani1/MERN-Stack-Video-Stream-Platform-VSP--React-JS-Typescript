@@ -1,0 +1,36 @@
+.card {
+  border: none;
+}
+
+.user-video-thumbnail {
+  position: relative;
+}
+
+.user-video-thumbnail img {
+  height: 240px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 2s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(100%);
+  display: block;
+  width: 100%;
+}
+
+.user-video-thumbnail p svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user-post-details{
+   
+    padding-left: 5px;
+}
+
+.user_post_details_container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}

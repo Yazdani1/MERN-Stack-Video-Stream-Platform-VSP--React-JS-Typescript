@@ -1,0 +1,9 @@
+.sidebar-margin {
+  margin-top: 80px;
+}
+
+@media (max-width: 1000px) {
+  .sidebar-margin {
+    display: none;
+  }
+}

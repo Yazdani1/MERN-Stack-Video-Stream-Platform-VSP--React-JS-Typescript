@@ -1,0 +1,32 @@
+.skelton-card{
+    height: 300px;
+    width: 300px;
+    /* background-color: white; */
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.user-info{
+    display: flex;
+
+}
+
+.user-profile-pic-skelton{
+
+    height: 70px;
+    width: 70px;
+    border-radius: 90px;
+    background-color: #F2F2F2;
+    margin-top: 15px;
+
+}
+
+.user-name-skelton{
+    height: 20px;
+    width: 210px;
+    border-radius: 90px;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    margin-left: 10px;
+}

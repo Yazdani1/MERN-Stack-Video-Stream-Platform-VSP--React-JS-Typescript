@@ -1,0 +1,44 @@
+.related-post-card {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  
+}
+
+.related-post-firstitem{
+  margin-top: 0px;
+}
+
+.related-post-image img {
+  height: 150px;
+  width: 210px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.related-post-post-info {
+  padding-top: 10px;
+  line-height: 5px;
+  
+}
+
+.post-title-watchlater-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-title-watchlater-button {
+  height: 25px;
+}
+
+@media (max-width: 1000px) {
+  .related-post-image img {
+    width: 100%;
+    
+  }
+  .related-post-post-info {
+    margin-top: 15px;
+    padding-left: 10px;
+  }
+  
+}
