@@ -58,6 +58,7 @@ const Navbar = ({ handleExpandClick }: NavbarProps) => {
         <input
           type="text"
           className="form-controssl"
+          placeholder="Search..."
           onChange={(e) => setQ(e.target.value)}
         />
         <HiOutlineSearch size={35} onClick={()=>navigate(`/search?search_query=${q}`)}/>

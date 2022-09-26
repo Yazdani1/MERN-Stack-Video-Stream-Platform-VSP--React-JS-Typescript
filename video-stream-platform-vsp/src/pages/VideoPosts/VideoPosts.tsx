@@ -158,6 +158,7 @@ const VideoPosts = () => {
   return (
     <DashboarPageLayout>
       <CardLayout title="Create Video Post" backgroun_color="white">
+        <p>Video Link: {video}</p>
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="form-designs">
@@ -184,6 +185,7 @@ const VideoPosts = () => {
                       hidden
                     />
                   </label>
+                  {image}
                   {preview && (
                     <img
                       src={preview}

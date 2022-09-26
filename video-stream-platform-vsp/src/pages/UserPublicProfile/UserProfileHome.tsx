@@ -100,7 +100,7 @@ const UserProfileHome = () => {
 
       {loading ? (
         <div className="row">
-          {[1, 2, 3, 4, 5, 6].map((item, index) => (
+          {[1, 2, 3, 4, 5, 6,7,8,9,10,11,12].map((item, index) => (
             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
               <Skelton />
             </div>
