@@ -11,7 +11,7 @@
 
 .related-post-image img {
   height: 150px;
-  width: 210px;
+  width: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
