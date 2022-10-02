@@ -100,7 +100,7 @@
     transition-duration: 2s;
   }
   
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     .image-class img {
       display: none;
     }

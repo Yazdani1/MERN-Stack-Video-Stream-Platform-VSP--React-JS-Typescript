@@ -2,7 +2,7 @@
   margin-top: 80px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .sidebar-margin {
     display: none;
   }
