@@ -70,7 +70,7 @@
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
   .navbar-main {
     display: none;
   }

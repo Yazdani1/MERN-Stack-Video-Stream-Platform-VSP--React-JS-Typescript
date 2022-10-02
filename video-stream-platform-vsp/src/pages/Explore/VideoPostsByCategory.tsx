@@ -26,7 +26,7 @@ const VideoPostsByCategory = () => {
 
   const loadCategoryDetails = async () => {
     try {
-      const res = await getCategoryInfo(slug);
+      const res = await getCategoryInfo(slug!);
 
       if (res) {
         setCategoryDetails(res.data);
@@ -44,7 +44,7 @@ const VideoPostsByCategory = () => {
 
   const loadAllPosts = async () => {
     try {
-      const res = await getPostsByCategory(slug);
+      const res = await getPostsByCategory(slug!);
 
       if (res) {
         setAllPosts(res.data);

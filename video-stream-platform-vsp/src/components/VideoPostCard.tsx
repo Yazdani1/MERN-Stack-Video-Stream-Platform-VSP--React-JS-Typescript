@@ -80,9 +80,12 @@ const VideoPostCard: FC<VideoPostCardProps> = ({ video }) => {
               to={"/channel/" + video.postedBy?.slug}
               style={{ textDecoration: "none", color: "black" }}
             >
-              <p>
-                {video.postedBy?.name} <FcOk />
-              </p>
+              <div style={{display:"flex",}}>
+                <p>{video.postedBy?.name}</p>
+                <p style={{marginTop:"-3px"}}>
+                  <FcOk />
+                </p>
+              </div>
             </Link>
 
             {video?.views >= 1000 ? (

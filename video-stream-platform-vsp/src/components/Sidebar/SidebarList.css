@@ -22,7 +22,7 @@
 
 .navbar-items ul li svg{
     margin-right: 25px;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 .navbar-items-only-icons ul li {
@@ -32,7 +32,7 @@
 }
 
 .navbar-items-only-icons ul li svg{
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 .navbar-items ul li a{

@@ -44,7 +44,7 @@
     overflow: hidden;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1200px) {
     .sidebar{
         display: none;
     }

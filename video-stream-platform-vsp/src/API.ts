@@ -58,14 +58,14 @@ export const deleteCategory = async (id: number) => {
 
 // to get category info
 
-export const getCategoryInfo = async (slug: any) => {
+export const getCategoryInfo = async (slug: string) => {
   const res = await axios.get(API_URL + "/category-details/" + slug);
   return res;
 };
 
 // to get posts by category
 
-export const getPostsByCategory = async (slug: any) => {
+export const getPostsByCategory = async (slug: string) => {
   const res = await axios.get(API_URL + "/posts-by-category/" + slug);
   return res;
 };
@@ -114,11 +114,7 @@ export interface CreateVideoPostsProps {
 }
 
 export const createVideoPosts = async (props: CreateVideoPostsProps) => {
-  const res = await axios.post(
-    API_URL + "/create-post",
-    { ...props },
-    headerConfig()
-  );
+  const res = await axios.post(API_URL + "/create-post",{ ...props },headerConfig());
   return res;
 };
 

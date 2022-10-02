@@ -9,7 +9,7 @@ interface IPropsPageLayout {
 }
 
 const PageLayout = ({ children }: IPropsPageLayout) => {
-  const [expandSidebar, setExpandSidebar] = useState(true);
+  const [expandSidebar, setExpandSidebar] = useState(false);
 
   const handleExpandClick = () => {
     setExpandSidebar(!expandSidebar);

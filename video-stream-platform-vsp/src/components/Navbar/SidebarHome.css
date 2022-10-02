@@ -15,7 +15,7 @@
 
 
 .home-sidebar-expand {
-    width: 230px;
+    width: 160px;
 }
 
 .icon-for-sidebar-expand-and-collapse{
@@ -43,7 +43,7 @@
     overflow: hidden;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1200px) {
     .sidebar{
         display: none;
     }
