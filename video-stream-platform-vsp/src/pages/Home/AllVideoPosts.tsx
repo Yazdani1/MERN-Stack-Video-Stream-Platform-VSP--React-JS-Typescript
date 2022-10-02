@@ -44,7 +44,7 @@ const AllVideoPosts = () => {
           {allPosts &&
             allPosts.map((video, index) => (
               <div
-                className="col-xl-3 col-lg-6 col-md-6 col-sm-12"
+                className="col-xl-4 col-lg-6 col-md-6 col-sm-12"
                
               >
                 <div style={{ margin: "10px" }}  key={video._id}>
