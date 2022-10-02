@@ -84,7 +84,7 @@ const TrendingPosts = () => {
         {loading ? (
           <div className="row">
             {[1, 2, 3, 4, 5, 6].map((item, index) => (
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                 <Skelton />
               </div>
             ))}
@@ -93,7 +93,7 @@ const TrendingPosts = () => {
           <div className="row">
             {allTrendingPosts &&
               allTrendingPosts.map((video, index) => (
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                   <div style={{ marginTop: "20px" }} key={index}>
                     <VideoPostCard video={video} />
                   </div>
