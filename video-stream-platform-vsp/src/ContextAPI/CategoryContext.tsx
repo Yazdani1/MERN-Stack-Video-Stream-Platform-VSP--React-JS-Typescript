@@ -1,6 +1,5 @@
 import React, { useState, createContext, useEffect, FC } from "react";
 import { ToastContainer, toast } from "react-toastify";
-
 import { getCategoryList } from "../API";
 
 export const CategoryContext = createContext<null | any>(null);
